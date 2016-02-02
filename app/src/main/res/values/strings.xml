@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Compass</string>
+
+    <!-- MainActivity -->
+    <string name="current_location">Your location</string>
+    <string name="destination_location">Where you want to go</string>
+    <string name="latitude_button">Latitude</string>
+    <string name="longitude_button">Longitude</string>
+    <string name="latitude_dialog_title">Set destination LATITUDE</string>
+    <string name="longitude_dialog_title">Set destination LONGITUDE</string>
+    <string name="latitude_dialog_message">Your position LAT</string>
+    <string name="longitude_dialog_message">Your position LONG</string>
+    <string name="not_valid_input">Not valid input</string>
+
+
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">Cancel</string>
+</resources>

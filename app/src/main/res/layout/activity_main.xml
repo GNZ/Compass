@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".ui.MainActivity">
+
+
+
+    <include layout="@layout/compass_layout"
+        android:id="@+id/compass_graphics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/compass_top_margin"
+        android:layout_alignParentTop="true">
+
+    </include>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/latitude_button"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/latitude_button"
+            android:textSize="@dimen/lat_long_button_text_size"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/longitude_button"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:text="@string/longitude_button"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/lat_long_button_text_size"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</RelativeLayout>

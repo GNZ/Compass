@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="lat_long_button_text_size">8pt</dimen>
+    <dimen name="compass_top_margin">50dp</dimen>
+</resources>
